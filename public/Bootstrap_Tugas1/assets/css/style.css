@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #640064;
+}
+.container img{
+  margin-right: 50px;
+}
+.container2{
+  justify-content: space-evenly;
+}
+.dropdown-item{
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+.dropdown-item:hover{
+  color:darkorchid
+}
+.navbar-brand{
+  padding-left: 45px;
+  width: 30px;
+  height: auto;
+}
+.telkom{
+  width: 160px;
+  height: auto;
+}
+.list {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: start;
+}
+
+
+.contact i {
+    font-size: 30px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 60px;
+  margin: 15px 20px;
+}
+.contact h4 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.note p{
+    font-size: 20px;
+}
+.register{
+  margin-right: 60px;
+  font-size: 20px;
+}
+#footer{
+  padding-left: 10px;
+  
+}
+.container{
+  justify-content: space-evenly;
+}
+.textInfo{
+  font-size: 19px;
+  text-align: start;
+}
+.daftar li{
+  font-size: 20px;
+}
+.kontak{
+  justify-content: end;
+}
+.bg-purple{
+  background-color: #640064;
+}
+hr{
+  border-top: 3px dotted;
+  color: beige;
+  text-align: center;
+  height: 3px;
+  overflow: visible;
+}
+.nav-link{
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-item button{
+  list-style: none;
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-purple" data-bs-theme="dark">
+        <div class="container py-0 px-4">
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img src="assets/images/logo-TELU-HORZ.png" alt="Brand logo" style="width: 150px; margin-right: 200px;">
+            </a>
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- offcanvas -->
+            <div class="offcanvas offcanvas-end bg-dark" id="offcanvasNavbar">
+                <div class="offcanvas-header pb-0 px-4">
+                    <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body pt-0 px-4">
+                    <hr class="d-md text-white-50">
+                    <!-- Top Menu -->
+                    <ul class="navbar-nav flex-wrap">
+                        <li class="nav-item col-6 col-md-auto">
+                            <a class="nav-link" aria-current="page" href="#">Halaman Utama</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <div class="dropdown" data-bs-theme="dark">
+                                <button type="button" class="btn nav-link text-white dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tentang Kami
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="dropdown-item  " type="button"><small>Informasi Umum</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Organisasi</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Penghargaan</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Kerja Sama</small></li>
+                                    <hr>
+                                </ul>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <div class="dropdown" data-bs-theme="dark">
+                                <button type="button" class="btn nav-link text-white dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Akademik
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="dropdown-item  " type="button"><small>Struktur Kurikulum</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Rencana Belajar</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Besiswa</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Kerja Sama</small></li>
+                                    <hr>
+                                </ul>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <div class="dropdown" data-bs-theme="dark">
+                                <button type="button" class="btn nav-link text-white dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Kehidupan Kampus
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li class="dropdown-item  " type="button"><small>Kehidupan di Surabaya</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Galeri Kegiatan</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Penelitian</small></li>
+                                    <hr>
+                                    <li class="dropdown-item"><small>Pengabdian Masyarakat</small></li>
+                                    <hr>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto">
+                            <a class="nav-link" href="#">Dosen & Staff</a>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+
+                    </ul>
+                    <ul class="nav-item col-6 col-md-auto">
+                        <button type="button"
+                            class="btn btn-lg border border-4 border-white rounded-pill text-white w-2 h-4"> Daftar
+                            Sekarang</button>
+                </ul>
+                    <hr class="text-white-50">
+                    <!-- Social Media         -->
+                    <ul class="navbar-nav ms-md-auto">
+                        <li class="nav-item col-6 col-md-auto">
+                            <a href="#" class="nav-link active">
+                                <i class="bi-instagram text-white hidden"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+  
+    <!-- CONTENT -->
+    <div class="container">
+        <div class="row rows-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/prilly.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Prilly Latuconcina</h5>
+                        <p class="card-text text-center mb-3">Manajemen Portofolio TI, Budaya Organisasi, Interaksi
+                            Manusia Komputer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/Jeromepolin.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jerome Polin</h5>
+                        <p class="card-text text-center mb-3">Dynamic Programming, Machine Learning, Social Computing
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/Miauawg.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Miauawg</h5>
+                        <p class="card-text text-center mb-3">Social Computing, Data Scientist & Engineering, Software
+                            Engineering, IT Planning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/mrBeast.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mr.Beast</h5>
+                        <p class="card-text text-center mb-3">Rekayasa Perangkat Lunak, Enterprise Architecture,
+                            Internet of Things</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/Medyrenaldy.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Medy Renaldy</h5>
+                        <p class="card-text text-center mb-3">Pemodelan dan Simulasi, DSS, Sistem Enterprise</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/Vamells.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Vamells</h5>
+                        <p class="card-text text-center mb-3">Data Warehouse, Data Base, Data Mining</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/Dipo.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Dipo Dwiki</h5>
+                        <p class="card-text text-center mb-3">Pemodelan Sistem Dinamik, System Thinking, Travelling
+                            Salesman Problem, Sistem Informasi Geografis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/fadhilJaidi.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Fadhil Jaidi</h5>
+                        <p class="card-text text-center mb-3">IT Business Value, Strategic Information System, IT Risk
+                            Management, IT Governance, Management Information System</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="assets/images/omMobi.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Om Mobi</h5>
+                        <p class="card-text text-center mb-3">Software Engineering, Hybrid Mobile App Development, Agile
+                            Project Management, Human Computer Interaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="bg-dark text-white  py-5 d-flex justify-content-">
+
+        <div class="container text-center m-5 text-md-start mt-5 ">
+            <div class=" container2 row mt-5">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h4 class="text-uppercase mb-4 font-weight-bold text-white text-start"> Sistem informasi</h4>
+                    <p class=" textInfo  m-2 ">
+                        Situs resmi Program Studi Sistem Informasi Universitas Telkom Surabaya. <br>
+                        Website ini diperuntukkan sebagai media komunikasi internal & eksternal<br>
+                        bagi mahasiswa, dosen, dan karyawan.
+                        <br>
+                        <br>
+                        Program Studi Sistem Informasi sudah ada sejak berdirinya Universitas <br>
+                        Telkom Surabaya, berdasarkan Keputusan Menteri Riset, Teknologi, dan <br>
+                        Pendidikan Tinggi no. 733 / KPT / I / 2018.
+                        <br>
+                        <br>
+                        Website ini menyajikan informasi tentang Program Studi Sistem Informasi,<br>
+                        profil, visi dan misi, struktur organisasi, akademisi, kurikulum, dosen,<br>
+                        penelitian dan pengabdian kepada masyarakat.
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h4 class="text-uppercase fw-bold text-white">Tautan Penting</h4>
+                    <ul class="  daftar list-unstyled">
+                        <li class="mb-2"><a href="#" class=" list text-white"> Kerja Sama </a></li>
+                        <li class="mb-2"><a href="#" class=" list text-white"> Blog </a></li>
+                        <li class="mb-2"><a href="#" class=" list text-white"> Penghargaan </a></li>
+                        <li class="mb-2"><a href="#" class=" list text-white"> Beasiswa </a></li>
+                    </ul>
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white"> Tautan Bermanfaat</h5>
+                    <ul class=" daftar list lh-base list-unstyled">
+                        <li class="mb-2"><a href="#" class=" list text-white"> Telkom Indonesia</a></li>
+                        <li class="mb-2"><a href="#" class=" list text-white"> Yayasan Pendidikan Telkom</a></li>
+                        <li class="mb-2"><a href="#" class=" list text-white"> Universitas Telkom Surabaya</a></li>
+                        <li class="mb-2"><a href="#" class=" list text-white"> Fakultas FTIB</a></li>
+                        <li class="mb-2"><a href="#" class=" list text-white"> Website SMB</a></li>
+                    </ul>
+                </div>
+                <div class=" kontak col-md-4 col-lg-3 col-xl-3 mx-auto mb-md mb-4 text-start">
+                    <h5 class="text-uppercase mb-4 fw-bold text-white">Info Kontak</h5>
+
+                    <div class="contact">
+                        <i class="fas fa-home mr-3 border border-2 rounded-circle"></i>
+                        <div class="note">
+                            <h5>Alamat: </h5>
+                            <p>Jl. Ketintang No.156, Surabaya, Jawa Timur 60231</p>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <i class="fas fa-phone mr-3 border border-2 rounded-circle ">
+
+                        </i>
+                        <div class="note">
+                            <h5>Telephone :</h5>
+                            <p>+62 31 8280800</p>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <i class="fa-regular fa-envelope mr-3 border border-2 rounded-circle"></i>
+                        <div class="note">
+                            <h5>Email :</h5>
+                            <p>is-ittlkom.ac.id</p>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <h5>Media Sosial</h5>
+                        <i class="fa-brands fa-instagram mr-3 border border-2 rounded-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark text-white">
+        -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </div>
+    <div class="bg-dark text-white px-5 pb-3 pt-3">
+
+        <h4>Copyright © 2024 Information Systems </h4>
+        <p>Build with ♥ by Information System Web Team</p>
+    </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
